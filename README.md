@@ -63,6 +63,6 @@ This is the list of environment variables used by the application, just change t
 | SPRING_DATASOURCE_PASSWORD |            Database Password             | `String` | `password_db` |
 | SPRING_FLYWAY_ENABLED |              Enable Flyway               | `Boolean` | `true` |
 
-## Autor
+## Author
 
 Application developed by Diego Gomes Borges.
