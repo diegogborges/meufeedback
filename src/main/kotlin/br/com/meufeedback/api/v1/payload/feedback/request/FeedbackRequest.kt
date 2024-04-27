@@ -6,5 +6,4 @@ data class FeedbackRequest(
     val slug: String,
     val status: Int,
     val companyId: Long,
-    //val questions: Questions, ManyToManyField
 )

@@ -1,19 +1,17 @@
 package br.com.meufeedback.domain
 
 import jakarta.persistence.*
-import lombok.AllArgsConstructor
-import lombok.Builder
-import lombok.Data
-import lombok.NoArgsConstructor
+import lombok.*
 import org.hibernate.annotations.CreationTimestamp
 import org.hibernate.annotations.UpdateTimestamp
 import java.time.LocalDateTime
 
-@AllArgsConstructor
-@Builder
 @Data
-@Entity
+@Builder
+@Setter
+@AllArgsConstructor
 @NoArgsConstructor
+@Entity
 @Table(
     name = "company_user"
     /*   uniqueConstraints =
